@@ -1,35 +1,41 @@
-body {
+.top-wrapper {
   display: flex;
   justify-content: center;
+  background-color: #f4f6f7;
 }
 
-.top-wrapper {
-  width: 1440px;
-  height: 810px;
-  background-color: #F4F6F7;
+.header-block-wrapper {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
+  max-width: 1440px;
   display: flex;
   justify-content: space-between;
-  margin-right: 135px;
-  margin-left: 135px;
-}
-.header__logo {
-  padding: 20px;
+  padding-top: 20px;
 }
 .header__menu {
   display: flex;
   justify-content: space-evenly;
 }
 
-.links {
+.links-block {
   font-family: "Avenir Next LT Pro", sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color: #13253A;
+  color: #13253a;
   line-height: 12px;
-  padding: 20px;
+  padding: 12px;
+}
+.links-block__link {
+  font-family: "Avenir Next LT Pro", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #13253a;
+  line-height: 12px;
+  padding-left: 50px;
 }
 
 .main {
@@ -37,8 +43,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 140px;
-  margin-right: 135px;
-  margin-left: 135px;
 }
 .main__info-block {
   width: 460px;
@@ -52,7 +56,7 @@ body {
 .business-info__header {
   font-size: 16px;
   padding-bottom: 5px;
-  color: #2557AB;
+  color: #2557ab;
 }
 .business-info__title {
   font-size: 46px;
@@ -73,8 +77,8 @@ body {
   align-items: center;
   font-size: 17px;
   font-weight: 600;
-  color: #F4F6F7;
-  background-color: #FF7F57;
+  color: #f4f6f7;
+  background-color: #ff7f57;
   border-radius: 3px;
   cursor: pointer;
 }

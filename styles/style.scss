@@ -1,22 +1,30 @@
 body {
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
 }
 
 .top-wrapper {
-  width: 1440px;
-  height: 810px;
-  background-color: #F4F6F7;
+  // width: 1440px;
+  // height: 810px;
+  display: flex;
+  justify-content: center;
+  background-color: #f4f6f7;
 }
 
-.header { 
+.header-block-wrapper {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  max-width: 1440px;
   display: flex;
   justify-content: space-between;
-  margin-right: 135px;
-  margin-left: 135px;
+  padding-top: 20px;
+
 
   &__logo {
-    padding: 20px;
   }
 
   &__menu {
@@ -25,13 +33,22 @@ body {
   }
 }
 
-.links {
-  font-family: 'Avenir Next LT Pro', sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  color: #13253A;
-  line-height: 12px;
-  padding: 20px;
+.links-block {
+    font-family: "Avenir Next LT Pro", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #13253a;
+    line-height: 12px;
+    padding: 12px;
+
+  &__link {
+    font-family: "Avenir Next LT Pro", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #13253a;
+    line-height: 12px;
+    padding-left: 50px;
+  }
 }
 
 .main {
@@ -39,9 +56,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 140px;
-  margin-right: 135px;
-  margin-left: 135px;
-  
+
   &__info-block {
     width: 460px;
     display: flex;
@@ -50,17 +65,16 @@ body {
   }
 
   &__img {
-
   }
 }
 
 .business-info {
-  font-family: 'Avenir Next LT Pro', sans-serif;
+  font-family: "Avenir Next LT Pro", sans-serif;
 
   &__header {
     font-size: 16px;
     padding-bottom: 5px;
-    color: #2557AB;
+    color: #2557ab;
   }
 
   &__title {
@@ -84,19 +98,23 @@ body {
     align-items: center;
     font-size: 17px;
     font-weight: 600;
-    color: #F4F6F7;
-    background-color: #FF7F57;
+    color: #f4f6f7;
+    background-color: #ff7f57;
     border-radius: 3px;
     cursor: pointer;
   }
 }
 
 .services {
-  &__tip {}
+  &__tip {
+  }
 
-  &__title {}
+  &__title {
+  }
 
-  &__items-block {}
+  &__items-block {
+  }
 }
 
-.service-info {}
+.service-info {
+}
