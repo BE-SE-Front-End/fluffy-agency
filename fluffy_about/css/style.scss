@@ -1,0 +1,284 @@
+.header {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 135px;
+  margin-left: 135px;
+  padding-top: 20px;
+  &__logo {
+  }
+
+  &__menu-item {
+  }
+}
+
+.main {
+  &__info-block {
+  }
+
+  &__img {
+  }
+}
+
+.business-info {
+  &__tip {
+  }
+
+  &__title {
+  }
+
+  &__description {
+  }
+
+  &__button {
+  }
+}
+
+.services {
+  &__tip {
+  }
+
+  &__title {
+  }
+
+  &__items-block {
+  }
+}
+
+.service-info {
+}
+
+.about {
+  position: absolute;
+  width: 970px;
+  height: 500px;
+  left: 235px;
+  top: 1640px;
+  display: flex;
+
+  &__tip {
+    position: absolute;
+    height: 22px;
+    left: 44.23%;
+    right: 44.33%;
+    top: calc(50% - 22px / 2 - 239px);
+
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    text-align: center;
+    color: #2557ab;
+  }
+
+  &__title {
+    position: absolute;
+    height: 52px;
+    left: 41.24%;
+    right: 41.24%;
+    top: calc(50% - 52px / 2 - 202px);
+
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #13253a;
+  }
+  &__content-block {
+    display: flex;
+    align-content: flex-start;
+  }
+
+  &__logo-block {
+    position: absolute;
+    width: 970px;
+    height: 66px;
+    left: 0px;
+    top: 434px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.about-content {
+  width: 370px;
+  height: 60px;
+  top: 104px;
+
+  &__specialise {
+    position: absolute;
+    left: 0%;
+    right: 61.86%;
+    top: 20.8%;
+    bottom: 67.2%;
+
+    font-family: "Avenir Next";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    color: #13253a;
+
+    mix-blend-mode: normal;
+    opacity: 0.9;
+  }
+}
+
+.about-content {
+  width: 370px;
+  height: 135px;
+  top: 184px;
+
+  &__focus {
+    position: absolute;
+    left: 0%;
+    right: 61.86%;
+    top: 36.8%;
+    bottom: 36.2%;
+
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+    color: #13253a;
+
+    mix-blend-mode: normal;
+    opacity: 0.9;
+  }
+}
+
+.about-content {
+  width: 570px;
+  height: 270px;
+  top: 104px;
+  left: 400px;
+
+  &__lorem {
+    position: absolute;
+    left: 41.24%;
+    right: 0%;
+    top: 20.8%;
+    bottom: 25.2%;
+
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+    color: #13253a;
+
+    mix-blend-mode: normal;
+    opacity: 0.9;
+  }
+}
+
+.logo-icon {
+  width: 66px;
+  height: 66px;
+  top: 434px;
+
+  &__hellofresh {
+    position: absolute;
+    left: 0%;
+    right: 93.2%;
+    top: 86.8%;
+    bottom: 0%;
+    width: 66px;
+    height: 66px;
+    background: url(Image.png);
+    align-items: center;
+  }
+}
+
+.logo-icon {
+  width: 126px;
+  height: 38px;
+  top: 448px;
+  left: 139px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center;
+
+  &__triviago {
+    position: absolute;
+    left: 14.33%;
+    right: 72.68%;
+    top: 89.6%;
+    bottom: 2.8%;
+
+    background: url(Image.png);
+  }
+}
+
+.logo-icon {
+  width: 271px;
+  height: 34px;
+  top: 450px;
+  left: 339px;
+
+  &__losangeles {
+    position: absolute;
+    left: 34.95%;
+    right: 37.11%;
+    top: 90%;
+    bottom: 3.2%;
+
+    background: url(Image.png);
+  }
+}
+
+.logo-icon {
+  width: 162px;
+  height: 23px;
+  top: 456px;
+  left: 683px;
+
+  &__oracle {
+    position: absolute;
+    left: 70.41%;
+    right: 12.89%;
+    top: 91.2%;
+    bottom: 4.2%;
+
+    background: url(Image.png);
+  }
+}
+
+.logo-icon {
+  width: 52px;
+  height: 66px;
+  top: 434px;
+  left: 918px;
+
+  &__target {
+    position: absolute;
+    left: 94.64%;
+    right: 0%;
+    top: 86.8%;
+    bottom: 0%;
+
+    background: url(Image.png);
+  }
+}
