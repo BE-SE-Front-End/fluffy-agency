@@ -1,18 +1,22 @@
-body {
-  // display: flex;
-  // justify-content: center;
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  max-width: 1440px;
 }
 
 .top-wrapper {
-  // width: 1440px;
-  // height: 810px;
   display: flex;
   justify-content: center;
   background-color: #f4f6f7;
 }
 
 .header-block-wrapper {
-  width: 1440px;
   display: flex;
   flex-direction: column;
 }
@@ -21,7 +25,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-
 
   &__logo {
   }
@@ -33,12 +36,12 @@ body {
 }
 
 .links-block {
-    font-family: "Avenir Next LT Pro", sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    color: #13253a;
-    line-height: 12px;
-    padding: 12px;
+  font-family: "Avenir Next LT Pro", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #13253a;
+  line-height: 12px;
+  padding: 12px;
 
   &__link {
     font-family: "Avenir Next LT Pro", sans-serif;
@@ -116,4 +119,84 @@ body {
 }
 
 .service-info {
+}
+
+.about {
+  margin-top: 100px;
+  width: 970px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__tip {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2557ab;
+  }
+
+  &__title {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    color: #13253a;
+  }
+
+  &__content-block {
+    margin-top: 30px;
+  }
+}
+
+.about-content {
+  display: flex;
+
+  &__text-container {
+  }
+
+  &__specialise-text {
+    margin-bottom: 30px;
+    font-family: "Prompt";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #13253a;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+  }
+
+  &__focus-text {
+    margin-right: 30px;
+    font-family: "Prompt";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #13253a;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+  }
+
+  &__lorem-text {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+
+.logo-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__icon {
+  }
 }
