@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+.wrapper {
+  width: 1300px;
+  height: 500px;
+  background-color: white;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.services {
+  width: 1170px;
+  height: 306px;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services__tip {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2557ab;
+}
+.services__title {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 52px;
+  color: #13253a;
+}
+.services__items-block {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.service-info {
+  width: 370px;
+  height: 197px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.service-info__icon {
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  left: 13.08%;
+  right: 81.45%;
+  margin-bottom: 20px;
+}
+.service-info__text {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  justify-content: center;
+  color: #3b4d6c;
+  width: 370px;
+  height: 27px;
+  margin-bottom: 5px;
+}
+.service-info__description {
+  width: 370px;
+  height: 81px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #13253a;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  left: 0%;
+  right: 68.38%;
+}
+
+.service-infomid {
+  width: 370px;
+  height: 197px;
+  display: flex;
+  margin-left: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.service-infomid__icon {
+  width: 64px;
+  height: 64px;
+  right: 47.35%;
+  bottom: 43.46%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.service-infomid__text {
+  width: 370px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  justify-content: center;
+  color: #3b4d6c;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.service-infomid__description {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #13253a;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  width: 370px;
+  height: 81px;
+  justify-content: center;
+}
+
+.service-infolast {
+  width: 370px;
+  height: 197px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.service-infolast__icon {
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.service-infolast__text {
+  width: 370px;
+  text-align: center;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #3b4d6c;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.service-infolast__description {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #13253a;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  justify-content: center;
+  width: 370px;
+  height: 81px;
+  align-content: center;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiLCJzdHlsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQVEsNkdBQUE7QUE4QlI7RUFDRSxhQUFBO0VBQ0EsYUFBQTtFQUNBLHVCQUFBO0VBQ0Esa0JBQUE7RUFDQSxxQkFBQTtFQUNBLG1CQUFBO0VBQ0Esb0JBQUE7QUM1QkY7O0FEK0JBO0VBQ0UsYUFBQTtFQUNBLGFBQUE7RUFDQSxpQkFBQTtFQUNBLGFBQUE7RUFDQSxzQkFBQTtFQUNBLG1CQUFBO0FDNUJGO0FEOEJFO0VBQ0UsMEJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsZUFBQTtFQUNBLGlCQUFBO0VBQ0EsY0FBQTtBQzVCSjtBRCtCRTtFQUNFLDBCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtFQUNBLGNBQUE7QUM3Qko7QURnQ0U7RUFDRSxnQkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQzlCSjs7QURrQ0E7RUFDRSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGFBQUE7RUFDQSxzQkFBQTtFQUNBLG1CQUFBO0VBQ0EsdUJBQUE7QUMvQkY7QURpQ0U7RUFDRSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHVCQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQy9CSjtBRGtDRTtFQUNFLDBCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0EsdUJBQUE7RUFDQSxjQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtBQ2hDSjtBRG1DRTtFQUVFLFlBQUE7RUFDQSxZQUFBO0VBQ0EsMEJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsZUFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQUFBO0VBQ0Esc0JBQUE7RUFDQSxZQUFBO0VBQ0EsUUFBQTtFQUNBLGFBQUE7QUNsQ0o7O0FEdUNBO0VBRUUsWUFBQTtFQUNBLGFBQUE7RUFDQSxhQUFBO0VBQ0EsaUJBQUE7RUFDQSxzQkFBQTtFQUNBLG1CQUFBO0VBQ0EsdUJBQUE7QUNyQ0Y7QUR1Q0U7RUFDRSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxjQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtBQ3JDSjtBRHdDRTtFQUNFLFlBQUE7RUFDQSwwQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSx1QkFBQTtFQUNBLGNBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0FDdENKO0FEeUNFO0VBQ0UsMEJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsZUFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQUFBO0VBQ0Esc0JBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSx1QkFBQTtBQ3ZDSjs7QUQ0Q0E7RUFFRSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGlCQUFBO0VBQ0EsYUFBQTtFQUNBLHNCQUFBO0VBQ0EsbUJBQUE7RUFDQSx1QkFBQTtBQzFDRjtBRDRDRTtFQUNFLFdBQUE7RUFDQSxZQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtBQzFDSjtBRDZDRTtFQUNFLFlBQUE7RUFDQSxrQkFBQTtFQUNBLDBCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtFQUNBLGNBQUE7RUFDQSx1QkFBQTtFQUNBLGtCQUFBO0FDM0NKO0FEOENFO0VBQ0UsMEJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsZUFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQUFBO0VBQ0Esc0JBQUE7RUFDQSxZQUFBO0VBQ0EsdUJBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtFQUNBLHFCQUFBO0FDNUNKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
