@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: "Prompt";
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .top-container {
   display: flex;
@@ -108,17 +119,74 @@
 }
 
 .services {
+  max-width: 1400px;
+  width: 100%;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   &__tip {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2557ab;
   }
 
   &__title {
+    text-align: center;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 52px;
+    color: #13253a;
   }
 
   &__items-block {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 }
-
 .service-info {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  &__text {
+    padding-top: 20px;
+    font-family: "Prompt";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #3b4d6c;
+  }
+
+  &__description {
+    padding-top: 5px;
+    font-family: "Prompt";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #13253a;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+  }
 }
 
 .about {
