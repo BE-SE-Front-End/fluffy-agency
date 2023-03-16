@@ -1,9 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,600;1,400;1,600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap');
-
-* {
-  font-family: "Prompt";
-}
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap");
 
 .wrapper {
   display: flex;
@@ -22,12 +17,15 @@
 }
 
 .top-wrapper {
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: #f4f6f7;
 }
 
 .header-block-wrapper {
+  max-width: 1200px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -47,7 +45,7 @@
 }
 
 .links-block {
-  font-family: "Avenir Next LT Pro", sans-serif;
+  font-family: "Prompt", sans-serif;
   font-size: 14px;
   font-weight: bold;
   color: #13253a;
@@ -55,7 +53,7 @@
   padding: 12px;
 
   &__link {
-    font-family: "Avenir Next LT Pro", sans-serif;
+    font-family: "Prompt", sans-serif;
     font-size: 14px;
     font-weight: bold;
     color: #13253a;
@@ -67,6 +65,7 @@
 .main {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 140px;
 
@@ -82,7 +81,7 @@
 }
 
 .business-info {
-  font-family: "Avenir Next LT Pro", sans-serif;
+  font-family: "Prompt", sans-serif;
 
   &__header {
     font-size: 16px;
@@ -119,7 +118,7 @@
 }
 
 .services {
-  max-width: 1400px;
+  max-width: 1200px;
   width: 100%;
   margin-top: 120px;
   display: flex;
@@ -154,6 +153,7 @@
     flex-wrap: wrap;
   }
 }
+
 .service-info {
   width: 370px;
   display: flex;
@@ -190,9 +190,9 @@
 }
 
 .about {
+  max-width: 1000px;
+  width: 100%;
   margin-top: 100px;
-  width: 970px;
-  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -221,9 +221,17 @@
 }
 
 .about-content {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
   &__text-container {
+    width: 370px;
+
+    &--wide {
+      width: 570px;
+    }
   }
 
   &__specialise-text {
@@ -239,7 +247,6 @@
   }
 
   &__focus-text {
-    margin-right: 30px;
     font-family: "Prompt";
     font-style: italic;
     font-weight: 400;
@@ -266,5 +273,22 @@
   align-items: center;
 
   &__icon {
+  }
+}
+
+@media (max-width: 599px) {
+  .main {
+    &__img {
+      display: none;
+    }
+  }
+
+  .logo-block {
+    flex-direction: column;
+    align-items: center;
+
+    &__icon {
+      padding: 15px;
+    }
   }
 }

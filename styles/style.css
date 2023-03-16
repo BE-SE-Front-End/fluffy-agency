@@ -1,9 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,600;1,400;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap");
-* {
-  font-family: "Prompt";
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -21,12 +16,15 @@
 }
 
 .top-wrapper {
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: #f4f6f7;
 }
 
 .header-block-wrapper {
+  max-width: 1200px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -42,7 +40,7 @@
 }
 
 .links-block {
-  font-family: "Avenir Next LT Pro", sans-serif;
+  font-family: "Prompt", sans-serif;
   font-size: 14px;
   font-weight: bold;
   color: #13253a;
@@ -50,7 +48,7 @@
   padding: 12px;
 }
 .links-block__link {
-  font-family: "Avenir Next LT Pro", sans-serif;
+  font-family: "Prompt", sans-serif;
   font-size: 14px;
   font-weight: bold;
   color: #13253a;
@@ -61,6 +59,7 @@
 .main {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 140px;
 }
@@ -71,7 +70,7 @@
   flex-wrap: wrap;
 }
 .business-info {
-  font-family: "Avenir Next LT Pro", sans-serif;
+  font-family: "Prompt", sans-serif;
 }
 .business-info__header {
   font-size: 16px;
@@ -104,7 +103,7 @@
 }
 
 .services {
-  max-width: 1400px;
+  max-width: 1200px;
   width: 100%;
   margin-top: 120px;
   display: flex;
@@ -170,9 +169,9 @@
 }
 
 .about {
+  max-width: 1000px;
+  width: 100%;
   margin-top: 100px;
-  width: 970px;
-  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -198,7 +197,16 @@
 }
 
 .about-content {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-content__text-container {
+  width: 370px;
+}
+.about-content__text-container--wide {
+  width: 570px;
 }
 .about-content__specialise-text {
   margin-bottom: 30px;
@@ -212,7 +220,6 @@
   opacity: 0.9;
 }
 .about-content__focus-text {
-  margin-right: 30px;
   font-family: "Prompt";
   font-style: italic;
   font-weight: 400;
@@ -235,6 +242,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 599px) {
+  .main__img {
+    display: none;
+  }
+  .logo-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-block__icon {
+    padding: 15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
