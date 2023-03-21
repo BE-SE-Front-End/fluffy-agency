@@ -265,18 +265,17 @@
   margin-top: 100px;
 }
 .information__content-block {
-  width: 50%;
+  max-width: 500px;
 }
 .information__image-block {
-  width: 50%;
-  margin-left: 570px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .information-content {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
 }
 .information-content__title {
   font-family: "Prompt";
@@ -285,18 +284,14 @@
   font-size: 38px;
   line-height: 52px;
   color: #13253a;
-  width: 60%;
 }
 .information-content__description {
   font-family: "Prompt";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 27px;
   color: #13253a;
-  mix-blend-mode: normal;
   opacity: 0.9;
-  width: 85%;
   margin-top: 20px;
 }
 .information-content__list {
@@ -306,10 +301,7 @@
 
 .information-list {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column;
 }
 .information-list__icon {
   margin-right: 15px;
