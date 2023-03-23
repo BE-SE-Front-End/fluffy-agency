@@ -3,100 +3,32 @@ body {
   justify-content: center;
 }
 
-.top-wrapper {
-  width: 1440px;
-  height: 810px;
+.kpi {
+  max-width: 1440px;
+  width: 100%;
   background-color: #F4F6F7;
-}
-
-.header { 
-  display: flex;
-  justify-content: space-between;
-  margin-right: 135px;
-  margin-left: 135px;
-
-  &__logo {
-    padding: 20px;
-  }
-
-  &__menu {
-    display: flex;
-    justify-content: space-evenly;
-  }
-}
-
-.links {
-  font-family: 'Avenir Next LT Pro', sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  color: #13253A;
-  line-height: 12px;
-  padding: 20px;
-}
-
-.main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 140px;
-  margin-right: 135px;
-  margin-left: 135px;
-  
-  &__info-block {
-    width: 460px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: 'Avenir', sans-serif;
+
+  &__content-block{
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
-  &__img {
-
+  &__heading {
+    font-size: 46px;
+    color: #13253A;
   }
-}
 
-.business-info {
-  font-family: 'Avenir Next LT Pro', sans-serif;
+  &__heading-orange {
+    color: orange;
+  }
 
-  &__header {
+  &__body {
     font-size: 16px;
-    padding-bottom: 5px;
     color: #2557AB;
   }
-
-  &__title {
-    font-size: 46px;
-    font-weight: 640;
-    padding-bottom: 10px;
-  }
-
-  &__description {
-    font-size: 16px;
-    padding-bottom: 20px;
-    opacity: 0.9;
-    font-weight: 400;
-  }
-
-  &__button {
-    width: 330px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 17px;
-    font-weight: 600;
-    color: #F4F6F7;
-    background-color: #FF7F57;
-    border-radius: 3px;
-    cursor: pointer;
-  }
 }
-
-.services {
-  &__tip {}
-
-  &__title {}
-
-  &__items-block {}
-}
-
-.service-info {}
